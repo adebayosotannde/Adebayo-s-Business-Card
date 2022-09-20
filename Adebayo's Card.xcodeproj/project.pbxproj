@@ -11,6 +11,8 @@
 		EE14635E28DA151A00CD8F1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14635D28DA151A00CD8F1C /* ContentView.swift */; };
 		EE14636028DA151A00CD8F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE14635F28DA151A00CD8F1C /* Assets.xcassets */; };
 		EE14636328DA151A00CD8F1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE14636228DA151A00CD8F1C /* Preview Assets.xcassets */; };
+		EE14636B28DA16BB00CD8F1C /* Pacifico in Resources */ = {isa = PBXBuildFile; fileRef = EE14636A28DA16BB00CD8F1C /* Pacifico */; };
+		EE14637428DA287000CD8F1C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14637328DA287000CD8F1C /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		EE14635D28DA151A00CD8F1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE14635F28DA151A00CD8F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE14636228DA151A00CD8F1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE14636A28DA16BB00CD8F1C /* Pacifico */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pacifico; sourceTree = "<group>"; };
+		EE14636C28DA17B100CD8F1C /* Adebayo-s-Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Adebayo-s-Card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE14637328DA287000CD8F1C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		EE14635A28DA151A00CD8F1C /* Adebayo's Card */ = {
 			isa = PBXGroup;
 			children = (
+				EE14636C28DA17B100CD8F1C /* Adebayo-s-Card-Info.plist */,
+				EE14636928DA16AB00CD8F1C /* fonts */,
 				EE14635B28DA151A00CD8F1C /* Adebayo_s_CardApp.swift */,
 				EE14635D28DA151A00CD8F1C /* ContentView.swift */,
+				EE14637328DA287000CD8F1C /* InfoView.swift */,
 				EE14635F28DA151A00CD8F1C /* Assets.xcassets */,
 				EE14636128DA151A00CD8F1C /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				EE14636228DA151A00CD8F1C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE14636928DA16AB00CD8F1C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EE14636A28DA16BB00CD8F1C /* Pacifico */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +143,7 @@
 			files = (
 				EE14636328DA151A00CD8F1C /* Preview Assets.xcassets in Resources */,
 				EE14636028DA151A00CD8F1C /* Assets.xcassets in Resources */,
+				EE14636B28DA16BB00CD8F1C /* Pacifico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE14635E28DA151A00CD8F1C /* ContentView.swift in Sources */,
+				EE14637428DA287000CD8F1C /* InfoView.swift in Sources */,
 				EE14635C28DA151A00CD8F1C /* Adebayo_s_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 4G4YKXJ9A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Adebayo-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 4G4YKXJ9A6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Adebayo-s-Card-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
